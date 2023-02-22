@@ -1,0 +1,50 @@
+/* Background*/
+  body {
+    background-color: #E2F0D1;
+    margin:100px;
+    }
+
+/* Padding */
+  div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    }
+
+/* Heading 1*/
+  h1, h2, h3, h4 {
+    color: #2D4116;
+    font-family: "Verdana", serif;
+    }
+  
+/* Text*/
+  p, li, dl {
+    color: #3C5C34;
+    font-family: "Verdana", serif;
+    }
+
+/* Links*/
+  a {
+    color: white;
+    font-family: "Verdana", serif;
+    }
+    
+/* Navigation Bar*/
+.nav-bar-Background {
+    list-style-type: none;
+    background-color: #3C5C34;
+    padding: 5px;
+}
+
+.nav-bar-Link{
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar-List{
+    display: inline;
+}
