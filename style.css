@@ -1,50 +1,61 @@
-/* Background*/
+/* Background
+background-image: url("https://f2.toyhou.se/file/f2-toyhou-se/images/30712857_wHcQ4w6QMA9Z4EF.png");*/
   body {
-    background-color: #E2F0D1;
+    background-image: url("backgroundtile.png");
+    background-color: #C9ACEF;
     margin:100px;
     }
 
-/* Padding */
+/* Boxes */
   div {
-    padding-top: 50px;
-    padding-right: 30px;
+    padding-top: 40px;
+    padding-right: 80px;
     padding-bottom: 50px;
     padding-left: 80px;
+    background-color: #F0E8F9;
     }
 
 /* Heading 1*/
-  h1, h2, h3, h4 {
-    color: #2D4116;
+  h1 {
+    color: #532b88;
     font-family: "Verdana", serif;
     }
   
+  h2, h3, h4{
+    color: #9b72cf;
+    font-family: "Verdana", serif;
+  }
+  
+
+  .nav-bar-Link{
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /* Text*/
   p, li, dl {
-    color: #3C5C34;
+    color: #532b88;
     font-family: "Verdana", serif;
+    line-height: 1.5;
     }
 
 /* Links*/
   a {
-    color: white;
+    color: #532b88;
     font-family: "Verdana", serif;
     }
     
 /* Navigation Bar*/
 .nav-bar-Background {
     list-style-type: none;
-    background-color: #3C5C34;
+    background-color: #9b72cf;
     padding: 5px;
-}
-
-.nav-bar-Link{
-    display: inline;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
 }
 
 .nav-bar-List{
     display: inline;
+    color: white;
 }
