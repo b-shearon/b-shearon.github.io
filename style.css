@@ -21,12 +21,20 @@ background-image: url("https://f2.toyhou.se/file/f2-toyhou-se/images/30712857_wH
     font-family: "Verdana", serif;
     }
   
+/* Other Headings 1*/
   h2, h3, h4{
     color: #9b72cf;
     font-family: "Verdana", serif;
   }
   
+  dt {
+    color: #9b72cf;
+    font-family: "Verdana", serif;
+    font-size: larger;
+    padding: 20px 0px;
+    font-weight: bold;
 
+  }
   .nav-bar-Link{
     display: inline;
     text-align: center;
@@ -58,4 +66,9 @@ background-image: url("https://f2.toyhou.se/file/f2-toyhou-se/images/30712857_wH
 .nav-bar-List{
     display: inline;
     color: white;
+}
+
+.scale-img{
+  width: 100%
+
 }
